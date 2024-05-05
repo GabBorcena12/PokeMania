@@ -1,0 +1,54 @@
+.banner-container {
+    position: relative;
+    width: 86vw;
+    height: 50vh;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  
+  .banner-background-image {
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    overflow:hidden;
+    height: 50vh;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    width: 86vw;
+    height: 50vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed */
+    border:dashed;
+    border-width: 0.6rem;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+  }
+
+  .banner-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
+
+  }
+
+.banner-white-background {
+    background-color: #dfdfdf;
+}
+
+.Pokedex-Container {
+    padding: 5rem;
+    text-align: left;
+    align-self: center;
+}
+
+.Pokedex-Container > h1 {
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+.Pokedex-Container > p {
+    font-size: large;
+}
+

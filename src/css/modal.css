@@ -1,0 +1,46 @@
+.modal-container {
+  box-shadow: 6px 7px 12px rgb(21, 20, 20);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  position: relative; /* Added position */
+  width: 30vw;
+  height: 10vw;
+  border-radius: 2rem;
+  overflow: hidden  ;
+}
+
+.modal-details-container {
+  padding: 1.5rem;
+}
+
+.modal-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+
+.modal-close-button {
+  color: white;
+  font-weight: 1000;
+  font-size: large;
+  background-color: transparent;
+  width: 2rem;
+}
+
+.modal-close-button:hover {
+  background-color: transparent;
+  color: rgb(73, 73, 73);
+}
+
+.modal-header {
+  font-size: x-large;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.modal-content {
+  font-weight: 100;
+}

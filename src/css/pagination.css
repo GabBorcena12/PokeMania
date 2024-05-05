@@ -1,0 +1,43 @@
+/* Pagination styles */
+.pagination {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.pagination li {
+    margin-right: 1rem;
+}
+
+.pagination button {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.pagination .active button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Additional styles for ellipsis */
+.pagination .ellipsis {
+    margin-right: 5px;
+    padding: 5px 0;
+    user-select: none;
+}
+
+.pagination .ellipsis::before {
+    content: '...';
+    font-size: 14px;
+    color: #ccc;
+}
+
+.pagination .ellipsis:hover {
+    cursor: default;
+}
+
+.visually-hidden {
+    display: none;
+}
